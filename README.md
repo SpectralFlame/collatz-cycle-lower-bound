@@ -234,6 +234,7 @@ As before, this allows for a simplified equation for $\gamma$:
 
 $$
 \gamma = \sum_{\ell = 0}^{\lambda - 1} 2^{\lambda - \ell - 1} 3^{\kappa + \ell} + \sum_{k = 0}^{\kappa - 1} 2^{\lambda + 2 k} 3^{\kappa - k - 1} \ ,
+$$
 
 which can be further simplified using geometric series:
 
