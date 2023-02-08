@@ -205,7 +205,7 @@ $$
 \end{aligned}
 $$
 
-Rewriting the condition $\alpha < \beta \log_2 3$ in terms of $\lambda$ and $kappa$, with $\alpha = \lambda + 2 \kappa$ and $\beta = \lambda$, we get
+Rewriting the condition $\alpha < \beta \log_2 3$ in terms of $\lambda$ and $\kappa$, with $\alpha = \lambda + 2 \kappa$ and $\beta = \lambda$, we get
 
 $$
 \lambda > \kappa \frac{ 2 }{ \log_2 3 - 1 } \ .
@@ -323,7 +323,7 @@ $$
 \frac \gamma \delta > 2^68 \hspace{1em} \mathrm{or \ that} \ \gamma > 2^{68 + x} \hspace{1em} \mathrm{with} \ \delta = 2^x
 $$
 
-From the relation $ \gamma < 2^{\alpha + 1} $, we get
+From the relation $\gamma < 2^{\alpha + 1}$, we get
 
 $$
 \alpha > 67 + x \ .
