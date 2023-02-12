@@ -149,7 +149,7 @@ Let $\gamma = 2^\alpha \gamma'$ and $\delta = 2^\alpha (1 - \delta')$.
 Then the above equation simplifies to
 
 $$
-n = \frac\gamma\delta = \frac{{\sum}^{|S|}_{i=1} 2^{\alpha - \alpha_i} 3^{\beta_i - 1} c_{S^\ast_i}}{2^\alpha - 3^\beta} \hspace{1em} \mathrm{with} \ n, \gamma, \delta \in \mathbb Z \ .
+n = \frac\gamma\delta = \frac{{\sum}^{|S|}_{i=1} 2^{\alpha - \alpha_i} 3^{\beta_{i - 1}} c_{S^\ast_i}}{2^\alpha - 3^\beta} \hspace{1em} \mathrm{with} \ n, \gamma, \delta \in \mathbb Z \ .
 $$
 
 Whereas $\gamma'$ and $\delta'$ are rational numbers, $\gamma$ and $\delta$ are always odd integers.
@@ -195,7 +195,7 @@ $$
 \gamma = \sum_{\ell = 0}^{\lambda - 1} 2^{\lambda - \ell - 1} 3^\ell - \sum_{k = 0}^{\kappa - 1} 2^{\lambda + 2k} \ ,
 $$
 
-which can further be simplified using geometric series:
+which can be further simplified using geometric series:
 
 $$
 \begin{aligned}
@@ -247,7 +247,7 @@ $$
 \end{aligned}
 $$
 
-Defining $\gamma$ in terms of $\alpha = 2\kappa + \lambda$ and $\beta = \kappa + \lambda$ gives use
+Defining $\gamma$ in terms of $\alpha = 2\kappa + \lambda$ and $\beta = \kappa + \lambda$ gives us
 
 $$
 \gamma = 2^\alpha + 3^\beta - 2 (3 / 2)^\alpha (4 / 3)^\beta \ .
@@ -257,7 +257,7 @@ From the condition that $\delta > 0$, i.e. $\alpha > \beta \log_2 3$, $\gamma$ i
 This results in
 
 $$
-\gamma = 2^{\alpha + 1} - 2^{(\log_2 3 + 2 \log_3 2 - 2)\alpha + 1} \approx 2^{alpha + 1} - 2^{0.847\alpha + 1} \ .
+\gamma = 2^{\alpha + 1} - 2^{(\log_2 3 + 2 \log_3 2 - 2)\alpha + 1} \approx 2^{\alpha + 1} - 2^{0.847\alpha + 1} \ .
 $$
 
 A conservative upper bound of $\gamma$ in terms of $\alpha$ is thus
@@ -274,7 +274,7 @@ The mathematics involved is quite complicated, so I'm just including some of the
 See [Applications of Linear Forms in Logarithms; Chapter 12](https://doi.org/10.1007/978-0-387-49894-2_4) for more information (note: please do not pay for access, these institutions should have never existed...).
 
 Using linear forms in logarithms, it is proven that $\delta = | 2^\alpha - 3^\beta |$ tends to infinity with $\alpha + \beta$, and an explicit lower bound can be calculated.
-For a specific value of $\delta$, it is thus possible to calculate an upper bound for $\alpha and $\beta$.
+For a specific value of $\delta$, it is thus possible to calculate an upper bound for $\alpha$ and $\beta$.
 An initial upper bound for $\alpha$, denoted as $\hat \alpha_{(1)}$, is found using the following inequality:
 
 $$
@@ -320,7 +320,7 @@ As of 2020, the conjecture has been checked for all starting values up to $2^{68
 From this it follows that
 
 $$
-\frac \gamma \delta > 2^68 \hspace{1em} \mathrm{or \ that} \ \gamma > 2^{68 + x} \hspace{1em} \mathrm{with} \ \delta = 2^x
+\frac \gamma \delta > 2^{68} \hspace{1em} \mathrm{or \ that} \ \gamma > 2^{68 + x} \hspace{1em} \mathrm{with} \ \delta = 2^x
 $$
 
 From the relation $\gamma < 2^{\alpha + 1}$, we get
