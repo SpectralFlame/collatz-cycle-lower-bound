@@ -35,7 +35,7 @@ $$
 The repetitive nature of the Collatz conjecture can be expressed as
 
 $$
-g^k(n) = 1 \ \forall \ n,k \in \mathbb{Z}^+ \ .
+g^k(n) = 1 \ \forall \ n \in \mathbb{Z}^+ \ \exists \ k \in \mathbb{Z}^+ \ .
 $$
 
 
